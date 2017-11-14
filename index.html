@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQbinSimple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <div id="logo">jQbinSimple</div>
+    <div id="container">
+      <div class="toggleButton active" id="html">HTML</div>
+      <div class="toggleButton" id="css">CSS</div>
+      <div class="toggleButton" id="js">JavaScript</div>
+      <div class="toggleButton active" id="output">Output</div>
+    </div>
+  </div>
+
+  <div id="main">
+    <textarea id="htmlPan" class="panel"></textarea>
+    <textarea id="cssPan" class="panel hidden"></textarea>
+    <textarea id="jsPan" class="panel hidden"></textarea>
+    
+    <iframe id="outputPan" class="panel"></iframe>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
